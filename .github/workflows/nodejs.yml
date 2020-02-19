@@ -42,4 +42,3 @@ jobs:
     - name: Upload assets to assets-bucket using the AWS cli
       run: >-
         aws s3 cp build/${{github.sha}} s3://bucket-for-charlies-terraform-js/assets/${{github.sha}}/main.js --acl public-read --cache-control public,max-age=2592000,immutable
-        aws iam get-user
