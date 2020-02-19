@@ -6,6 +6,7 @@ function App() {
     <div>
       <h1>{`App-version [${env.ENV_NAME}]: ${env.GIT_SHA.slice(0,7)}`}</h1>
       <h2>{`Build created at ${timestamp}`}</h2>
+      <div>Hola!</div>
     </div>
   );
 }
